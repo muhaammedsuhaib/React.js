@@ -19,6 +19,31 @@ const Accordion = () => {
       id: 3,
       details: 'This is the third document. It outlines the implementation plan, including timelines, milestones, and resource allocation. Adherence to this plan is crucial for project success.',
     },
+    {
+      heading: 'Document 4',
+      id: 4,
+      details: 'This is the fourth document. It outlines the implementation plan, including timelines, milestones, and resource allocation. Adherence to this plan is crucial for project success.',
+    },
+    {
+      heading: 'Document 5',
+      id: 5,
+      details: 'This is the five document. It outlines the implementation plan, including timelines, milestones, and resource allocation. Adherence to this plan is crucial for project success.',
+    },
+    {
+      heading: 'Document 6',
+      id: 6,
+      details: 'This is the six document. It outlines the implementation plan, including timelines, milestones, and resource allocation. Adherence to this plan is crucial for project success.',
+    },
+    {
+      heading: 'Document 7',
+      id: 7,
+      details: 'This is the seven document. It outlines the implementation plan, including timelines, milestones, and resource allocation. Adherence to this plan is crucial for project success.',
+    },
+    {
+      heading: 'Document 8',
+      id: 8,
+      details: 'This is the eight document. It outlines the implementation plan, including timelines, milestones, and resource allocation. Adherence to this plan is crucial for project success.',
+    },
   ];
 
 

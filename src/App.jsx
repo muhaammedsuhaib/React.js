@@ -1,15 +1,14 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import Counter from './components/useLocalStorageState '
+import react from 'react'
+// import './App.css';
+
+import Accordion from './components/Accordion'
 
 function App() {
-  const [count, setCount] = useState(0)
+  
 
   return (
     <>
-      <Counter/>
+     <Accordion/>
     </>
   )
 }

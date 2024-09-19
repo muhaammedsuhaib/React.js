@@ -1,8 +1,11 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { FaReact, FaNodeJs, FaDatabase } from "react-icons/fa";
+import { useNavigate } from "react-router-dom";
 
 const Home = () => {
+
+  const nav=useNavigate();
   return (
     <div className="relative min-h-screen flex flex-col justify-center items-center text-white bg-gradient-to-tr from-blue-600 via-purple-600 to-pink-600">
       <div className="container mx-auto px-6 py-12 lg:px-16 z-10">
@@ -42,6 +45,7 @@ const Home = () => {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ duration: 1, delay: 0.6, ease: "easeOut" }}
+              onClick={()=>nav('/projects')}
             >
               Explore My Projects
             </motion.button>

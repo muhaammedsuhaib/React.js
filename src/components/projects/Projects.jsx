@@ -12,6 +12,8 @@ const Projects = () => {
     // { name: 'Counter App', details: 'React and Redux ,Tailwind css', link: '/counter' },
     { name: 'Task Managment', details: 'React and Redux ,Tailwind css', link: '/task-managment' },
     { name: 'Tooltip', details: 'React Tooltip', link: '/tooltip' },
+    { name: 'Methods', details: 'Methods using React', link: '/methods' },
+    { name: 'Rating', details: 'Rating in using useState', link: '/rating-star' },
   ];
 
   const filteredProjects = projects.filter(project =>

@@ -14,6 +14,7 @@ const Projects = () => {
     { name: 'Tooltip', details: 'React Tooltip', link: '/tooltip' },
     { name: 'Methods', details: 'Methods using React', link: '/methods' },
     { name: 'Rating', details: 'Rating in using useState', link: '/rating-star' },
+    { name: 'Custom Theam', details: 'Select custom theam', link: '/custom' },
   ];
 
   const filteredProjects = projects.filter(project =>

@@ -6,6 +6,7 @@ import Task from './components/Task Management/Task';
 import HomeTooltip from './components/Tooltip/Home';
 import Rating from './components/Start Rating/Rating';
 import Methods from './components/Methods/Methods';
+import Custom from './components/custom/Custom';
 function App() {
 
   return (
@@ -18,6 +19,7 @@ function App() {
  <Route path='/tooltip' element={<HomeTooltip/>}/>     
  <Route path='/rating-star' element={<Rating/>}/>     
  <Route path='/methods' element={<Methods/>}/>     
+ <Route path='/custom' element={<Custom/>}/>     
  <Route path='*' element={<Home/>}/>
     </Routes>
     </BrowserRouter>

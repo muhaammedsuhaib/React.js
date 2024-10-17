@@ -18,6 +18,7 @@ function App() {
  <Route path='/tooltip' element={<HomeTooltip/>}/>     
  <Route path='/rating-star' element={<Rating/>}/>     
  <Route path='/methods' element={<Methods/>}/>     
+ <Route path='*' element={<Home/>}/>
     </Routes>
     </BrowserRouter>
     </>
